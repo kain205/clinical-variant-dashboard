@@ -42,7 +42,7 @@ class ConversionStats:
 
 
 def normalize_header_name(value: str) -> str:
-    clean = value.strip().lstrip("#").strip().lower().replace(" ", "_")
+    clean = value.strip().lstrip("\ufeff").lstrip("#").strip().lower().replace(" ", "_")
     return COLUMN_ALIASES.get(clean, clean)
 
 

@@ -6,9 +6,7 @@ Shared vocabulary for project docs and implementation.
 
 ## Key Files
 
-- `docs/supplementary/mvp_scope.md`
-- `docs/core/01_research_genomics_datasets.md`
-- `docs/core/02_data_preprocessing.md`
+- `docs/bao_cao_tuan_1.md`
 
 ## Important Concepts
 

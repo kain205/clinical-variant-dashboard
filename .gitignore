@@ -32,6 +32,7 @@ Thumbs.db
 # Project data and generated annotation outputs
 data/
 oc_test_out/
+tools/
 *.sqlite
 *.db
 *.log

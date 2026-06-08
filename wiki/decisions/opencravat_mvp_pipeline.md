@@ -4,19 +4,17 @@
 
 Record the previous OpenCRAVAT-centered direction and why it is no longer the MVP backbone.
 
-Current decision: superseded by [API-first MVP annotation](api_first_mvp_annotation.md).
+Current decision: superseded by [Dockerized VEP production annotation](dockerized_vep_production_annotation.md). API tools remain lookup/enrichment fallback, not the production annotation backbone.
 
 ## Key Files
 
-- `docs/core/01_research_genomics_datasets.md`
-- `docs/core/02_data_preprocessing.md`
-- `docs/supplementary/annotation_tools_manual_testing_notes.md`
+- `docs/bao_cao_tuan_1.md`
 - `src/preprocessing/convert_consumer_genome.py`
 
 ## Important Concepts
 
 - Use OpenCRAVAT only for optional file-level validation/output experiments.
-- Use MyVariant.info for selected variant fallback/enrichment.
+- Use MyVariant.info for selected variant lookup/enrichment.
 - Use MyGene.info only after variant-to-gene mapping.
 - Use MyChem.info only for optional drug/chemical enrichment in PGx views.
 - Do not install OpenCRAVAT annotator modules for the MVP demo path.
@@ -62,7 +60,8 @@ Outcome:
 ## Links
 
 - [Architecture](../architecture.md)
-- [API-first MVP annotation](api_first_mvp_annotation.md)
+- [Dockerized VEP production annotation](dockerized_vep_production_annotation.md)
+- [API lookup/enrichment fallback](api_first_mvp_annotation.md)
 - [Preprocessing module](../modules/preprocessing.md)
 - [Glossary](../glossary.md)
 
